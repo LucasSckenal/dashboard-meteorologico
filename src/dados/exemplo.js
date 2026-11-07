@@ -1,5 +1,5 @@
 // Dados de EXEMPLO para quando a API não responde. Cada dia é sempre igual (semente pela data), com o jeito de um dia de
-// primavera no noroeste gaúcho: aberto, ventoso, chuvoso ou nublado. Nada aqui foi medido.
+// primavera em São Paulo: aberto, ventoso, chuvoso ou nublado. Nada aqui foi medido.
 
 function aleatorio(texto) {
   let s = 2166136261;

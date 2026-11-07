@@ -1,6 +1,6 @@
-# Estação Unijuí
+# Estação São Paulo
 
-Painel novo da estação meteorológica da Unijuí (projeto integrador). Ele substitui o front antigo do
+Painel de uma estação meteorológica em São Paulo. Nasceu do projeto integrador da Unijuí e substitui o front antigo do
 [Unijui-PI4l](https://github.com/LucasSckenal/Unijui-PI4l): em vez de escolher sensor e linha em menus, a primeira tela já diz o que
 está fora do normal agora.
 
@@ -30,4 +30,4 @@ React 18, Vite 5 e SCSS. Fontes Bricolage Grotesque e IBM Plex Mono (Fontsource)
 ## Créditos
 
 O vídeo de fundo é de São Paulo, do [Pexels](https://www.pexels.com/video/traffic-in-sao-paulo-at-night-14534442/), com a licença
-livre do Pexels. Ele é ilustrativo e não mostra Ijuí.
+livre do Pexels.

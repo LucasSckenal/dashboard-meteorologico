@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 // Rótulo da câmera: "ao vivo" com o relógio nos segundos só quando a tela mostra o agora; numa hora passada, "gravação".
-// A imagem é de outra cidade, então a nota diz que é ilustrativa.
+// O vídeo é do Pexels, e a nota dá o crédito.
 
 export function RotuloCamera({ aoVivo, quando }) {
   const [agora, setAgora] = useState(() => new Date());
@@ -22,5 +22,5 @@ export function RotuloCamera({ aoVivo, quando }) {
 }
 
 export default function Camera() {
-  return <p className="cam-nota" aria-hidden="true">imagem ilustrativa · São Paulo · Pexels</p>;
+  return <p className="cam-nota" aria-hidden="true">vídeo: Pexels</p>;
 }

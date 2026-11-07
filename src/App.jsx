@@ -84,7 +84,7 @@ export default function App() {
         <Cena p={ceu} />
         <Camera />
         <header className="barra">
-          <p className="marca"><b>Estação Unijuí</b><span>Ijuí, RS</span></p>
+          <p className="marca"><b>Estação São Paulo</b><span>São Paulo, SP</span></p>
           <p className="quando">
             {fonte === "exemplo" && <span className="selo" title="A API da estação não respondeu; estes números são de exemplo.">dados de exemplo</span>}
             <RotuloCamera aoVivo={noAgora} quando={atual?.quando} />
