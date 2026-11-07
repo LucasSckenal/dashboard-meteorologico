@@ -94,7 +94,7 @@ h1 { font: 600 clamp(30px, 4.6vw, 64px)/1.04 var(--fd); letter-spacing: -0.025em
 @media (max-width: 420px) { .faixa a { padding: 12px; } }
 
 // ---------- o dia ----------
-.dia { background: rgb(16 21 26 / 0.86); padding: clamp(40px, 7vw, 96px) var(--gut) 48px; display: grid; gap: 28px; outline: none; scroll-margin-top: 0; }
+.dia { position: relative; z-index: 1; background: rgb(16 21 26 / 0.86); padding: clamp(40px, 7vw, 96px) var(--gut) 48px; display: grid; gap: 28px; outline: none; scroll-margin-top: 0; }
 .dia-topo { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; }
 h2 { font: 600 clamp(24px, 2.6vw, 34px)/1.1 var(--fd); letter-spacing: -0.02em; }
 .controle-dia {
